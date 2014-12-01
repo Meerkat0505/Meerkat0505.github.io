@@ -1,0 +1,25 @@
+
+body {
+  background-image: url=("background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: helvetica;
+}
+hr
+{
+  width: 50px;
+  color: orange;
+}
+p
+{
+  font-size: 22px;
+}
+input[type="submit"]
+{
+  background: #358df2;
+  color: white;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
