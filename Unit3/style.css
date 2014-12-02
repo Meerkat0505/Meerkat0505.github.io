@@ -1,27 +1,13 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-  text-align: left;
   background: url("background.jpg");
+  background-repeat:no-repeat;
   background-size: cover;
-  background-position: center;
   color: white;
-  font-family: helvetica;
-}
-hr
-{
-  width: 200px;
-  align: left;
-  color: red;
-}
-p
-{
+  font-family: helvetica, arial, sans-serif;
   font-size: 22px;
 }
-input[type="submit']
-{
-  background: #358df2;
-  color: white;
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
+hr {
+  width: 200px;
 }
 
