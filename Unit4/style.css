@@ -13,3 +13,16 @@ body {
 p {
   margin:0 0 20px 0;
 }
+a {
+  border:2px solid #fff;
+  color:#fff;
+  display:block;
+  padding:20px 30px;
+  text-align:center;
+  text-decoration:none;
+  width:250px;
+}
+a:hover {
+  background:#fff;
+  color:#222;
+}
