@@ -1,19 +1,14 @@
 *{ margin:0; padding:0; box-sizing:border-box; }
 body {
-  background: url("vineyardcafe.jpg") no-repeat #525a6a;
-  background-size: auto, cover;
+  background: url("images/vineyardcafe.jpg") no-repeat #525a6a;
+  background-size: cover;
   color: white;
   font-family: 'Tangerine', serif;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #222;
 }
-section {
+.tagline {
   margin:300px 0 0 150px;
-}
-hr {
-  border-color:#fd6e6e;
-  margin:5px 0 20px 0;
-  width: 100px;
 }
 p {
   margin:0 0 20px 0;
