@@ -1,0 +1,66 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: url("images/vineyardcafe.jpg") no-repeat #525a6a;
+  background-size: cover;
+  color: white;
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #222;
+}
+header {
+  background:#9c9;
+  border-bottom: 3px solid #222;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1;
+}
+nav a{
+  font-size:1em;
+  text-decoration: none;
+  color: white;
+  background-color: #9c9 ;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 50px;
+}
+li {
+  float:left;
+  width: 50%;
+  text-align: center;
+  background: black;  
+}
+.imagemenu {
+ height:auto;
+ width: 75%;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 480px;
+}
+#splash p { }
+#products { }
+#products div {
+  margin:0 auto;
+  max-width:1200px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}

@@ -1,0 +1,61 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: url("images/vineyardcafe.jpg") no-repeat fixed #525a6a;
+  background-size: cover;
+  color: white;
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #222;
+}
+.tagline {
+  margin:20px 0 0 50px;
+}
+p {
+  margin:0 0 20px 0;
+}
+a {
+  border:2px solid #fff;
+  color:#fff;
+  display:block;
+  padding:20px 30px;
+  text-align:center;
+  text-decoration:none;
+  width:480px;
+}
+a:hover {
+  background:#99c;
+  color:#9c9;
+}
+#header {
+padding:5px 10px;
+}
+h1 {
+margin:0;
+}
+#nav {
+padding:5px 10px;
+}
+#main1 {
+float:left;
+width:480px;
+padding:10px;
+background:#9c9;
+}
+h2 {
+margin:0 0 1em;
+}
+#main2 {
+float:right;
+width:550px;
+padding:10px;
+background:#99c;
+}
+#footer {
+clear:both;
+padding:5px 10px;
+background: black;
+}
+#footer p {
+margin:0;
+}
