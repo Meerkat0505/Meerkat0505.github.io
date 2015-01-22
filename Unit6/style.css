@@ -37,8 +37,9 @@ ul {
 }
 li {
   float:left;
-  width: 50%;
+  width: 33.33%;
   text-align: center;
+  padding:.5em;
 }
 .imagemenu {
  height:auto;
@@ -52,7 +53,7 @@ li {
 }
 #splash p { }
 #products { }
-#products ul {
+#products div {
   margin:0 auto;
   max-width:1200px;
 }
