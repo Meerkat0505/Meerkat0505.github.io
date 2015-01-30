@@ -1,7 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-/* ALL */
-
 body {
 	color: #414042;
 	font-weight: 400;
@@ -44,8 +42,6 @@ footer {
 	max-width:75em;
 	margin:0 auto;
 }
-
-/* HomePage */
 
 section#splash {
 	background: url(images/vineyardcafe.jpeg) no-repeat center;
@@ -223,89 +219,10 @@ a.more:hover {
 	transition-duration: .2s;
 }
 
-.tastings-img {
-	float:right;
-	width:25%;
-}
-
-/* Wines */
-
-.wines-wrap {
-	max-width:1200px;
-	margin:0 auto;
-	padding-top: 5em;
-}
-.wines-text {
-	float:left;
-	padding:.5em;
-	width:90%;
-}
-.wines-img {
-	float:right;
-	width:50%;
-}
-.pairings-img {
-	float:left;
-	width:100%;
-}
-.pairings-text {
-	float:top;
-	width:100%;
-	padding-right: 2em;
-}
-
-/* Cottages */
-
-.cottages-wrap {
-	max-width:1200px;
-	margin:0 auto;
-}
-.cottages-text {
-	float:left;
-	padding:.5em;
-	width:95%;
-}
-.cottages-img {
-	float:right;
-	width:50%;
-}
-.cottages-img img {
-	width:100%;
-}
 
 
-/* Weddings Page*/
+/* Other */
 
-.weddingspage-wrap {
-	max-width:1200px;
-	margin:0 auto;
-	padding-top: 5em;
-}
-.weddingspage-img {
-	float:right;
-	width:50%;
-}
-.weddingspage-img img {
-	width:100%;
-}
-.weddingspage-text {
-	float:left;
-	padding:.5em;
-	width:95%;
-}
-.weddings1-text {
-	float:right;
-	width:75%;
-	padding-right: 10em;
-}
-.weddingcouple-img {
-	float:left;
-	width:10%;
-	padding-right: 1em;
-}
-.weddingcouple-img img {
-	width:100%;
-}
 blockquote {
 	font-size:1.5em;
 	padding-top: .9em;
@@ -379,11 +296,28 @@ h2 {
 	margin: 5%;
 }
 
+
+/* HomePage */
 /* Header */
 
 section#splash {
 	height:50%;
 	max-width:100%;
+}
+
+/* Tasting Rooms Hours Section */
+
+.hours-text {
+	float:right;
+	padding: 1em 4em 2em;
+	width:100%;
+}
+.hours-img {
+	float:right;
+	width:100%;
+}
+.hours-img img {
+	width:100%;
 }
 
 /*Cottages Section*/
@@ -419,36 +353,41 @@ section#splash {
 	width:50%;
 }
 
-/* Tasting Rooms Hours Section */
 
-.hours-text {
+/* Tabbed Pages */
+
+
+
+/* Wines Page */
+
+.wines-wrap {
+	max-width:1200px;
+	margin:0 auto;
+	padding-top: 5em;
+}
+.wines-text {
+	float:left;
+	padding:.5em;
+	width:90%;
+}
+.wines-img {
 	float:right;
-	padding: 1em 4em 2em;
-	width:100%;
+	width:50%;
 }
-.hours-img {
-	float:right;
-	width:100%;
-}
-.hours-img img {
-	width:100%;
-}
-
-
-/* Cottages Page */
-
-.cottages-img {
+.pairings-img {
 	float:left;
 	width:100%;
 }
-.cottages-img img {
+.pairings-text {
+	float:top;
 	width:100%;
+	padding-right: 2em;
 }
-.cottages-text {
-	float:left;
-	padding: 1em 4em 2em;
-	width:100%;
+.tastings-img {
+	float:right;
+	width:25%;
 }
+
 
 /* Events Page */
 .calendar-wrap {
@@ -468,16 +407,67 @@ section#splash {
 	width:50%;
 }
 
-/* Weddings Page */
+/* Cottages Page*/
 
+.cottages-wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
+.cottages-text {
+	float:left;
+	padding:.5em;
+	width:95%;
+}
+.cottages-img {
+	float:right;
+	width:50%;
+}
+.cottages-img img {
+	width:100%;
+}
+
+/* Weddings Page*/
+
+.weddingspage-wrap {
+	max-width:1200px;
+	margin:0 auto;
+	padding-top: 5em;
+}
+.weddingspage-img {
+	float:right;
+	width:50%;
+}
+.weddingspage-img img {
+	width:100%;
+}
+.weddingspage-text {
+	float:left;
+	padding-top:5em;
+	width:95%;
+}
+.weddingsform-img {
+	float:left;
+	width:10%;
+	padding-right: 1em;
+}
+.weddingsform-img img {
+	width:100%;
+}
+.weddingsform-wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
+.weddingsform-text {
+	float:right;
+	padding:.5em;
+	width:95%;
+}
+.weddings-wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
 .weddings-img {
 	float:left;
-	width:32%;
-	padding-left: 2em;
-	padding-top: 1.3em;
-}
-.weddings2-img {
-	float:right;
 	width:32%;
 	padding-left: 2em;
 	padding-top: 1.3em;
@@ -497,9 +487,9 @@ section#splash {
 	margin:0 auto;
 }
 .weddings1-text {
-	float:left;
-	padding:.5em;
-	width:60%;
+	float:right;
+	width:75%;
+	padding-right: 10em;
 }
 .weddings1-img {
 	float:right;
@@ -507,3 +497,12 @@ section#splash {
 }
 .weddings1-img img {
 	width:100%;
+}
+.weddings2-img {
+	float:right;
+	width:32%;
+	padding-left: 2em;
+	padding-top: 1.3em;
+}
+
+
