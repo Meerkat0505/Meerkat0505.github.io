@@ -4,8 +4,14 @@ body {
 	color: #414042;
 	font-weight: 400;
 	line-height: 1.8em;
+<<<<<<< HEAD
 	font-family: 'Raleway', sans-serif;
   	font-size: 16px;
+=======
+	font-family: 'Tangerine', cursive;
+  	font-size: 20px;
+ 	text-shadow: .5px .5px .5px #222;
+>>>>>>> FETCH_HEAD
 	letter-spacing: .004em;
 }
 section {
@@ -28,7 +34,11 @@ nav a {
 	font-family: 'Tangerine', cursive;
 	font-size: 1.5em;
 	letter-spacing: .02em;
+<<<<<<< HEAD
 	margin-right: 20px;
+=======
+	margin-right: 1.5em;
+>>>>>>> FETCH_HEAD
 	padding: 1em 1em 1em 1em;
 	text-align: center;
 	text-decoration:none;
@@ -99,7 +109,9 @@ nav a:active {
     color: #D1331B;
     text-decoration: none;
 }
-img {}
+img {
+	float:left;
+}
 header img {
 	float:left;
 	max-width: 75%;
