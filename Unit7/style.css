@@ -4,9 +4,8 @@ body {
 	color: #414042;
 	font-weight: 400;
 	line-height: 1.8em;
-	font-family: 'Tangerine', cursive;
-  	font-size: 30px;
- 	text-shadow: .5px .5px .5px #222;
+	font-family: 'Raleway', sans-serif;
+  	font-size: 16px;
 	letter-spacing: .004em;
 }
 section {
@@ -25,11 +24,11 @@ nav {
 	margin-top: 1.5em;
 }
 nav a {
-	color: #414042;
+	color: #60348C;
 	font-family: 'Tangerine', cursive;
 	font-size: 1.5em;
 	letter-spacing: .02em;
-	margin-right: 30px;
+	margin-right: 20px;
 	padding: 1em 1em 1em 1em;
 	text-align: center;
 	text-decoration:none;
@@ -37,8 +36,8 @@ nav a {
 }
 footer {
 	vertical-align: bottom;
-	font-family: 'Tangerine', cursive;
-	color: #ccc;
+	font-family: 'Raleway', sans-serif;
+	color: black;
 	max-width:75em;
 	margin:0 auto;
 }
@@ -58,7 +57,7 @@ section#cottages {
 section#weddings {
 	background-color: #f2ede3;
 	max-width:100%;
-	padding-top: 1em;
+	padding-top: 5em;
 	padding-bottom: 1em;
 }
 section#weddingspage {
@@ -89,7 +88,7 @@ section#hours {
 }
 /* mouse over link */
 nav a:hover {
-	color: #9cbeba;
+	color: #4C9E42;
 	text-decoration: none;
 	border-radius: 3px;
 	transition-duration:.2s;
@@ -97,7 +96,7 @@ nav a:hover {
 
 /* selected link */
 nav a:active {
-    color: black;
+    color: #D1331B;
     text-decoration: none;
 }
 img {}
@@ -123,10 +122,11 @@ h1 {
 	word-spacing: .02em;
 }
 h1.hero {
+	font-family: 'Tangerine', cursive;
 	font-weight: 400;
-	padding-top: 200px;
+	padding-top: 350px;
 	line-height: 1.3em;
-	font-size: 4em;
+	font-size: 6em;
 	margin-left: 50px;
 	margin-right: 40px;
 }
@@ -134,9 +134,9 @@ h1.hero {
 h2 { 
 	font-family: 'Tangerine', cursive;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 1.8em;
-	color: #660033;
+	font-weight: 500;
+	font-size: 3em;
+	color: #92419C;
 	height: 20px;
 	padding-top: .2em;
 	padding-bottom: 2.5em;
@@ -159,8 +159,8 @@ h3 {
 }
 
 h4 {
-	color:#b0b0b0;
-	font-size: 1em;
+	color:black;
+	font-size: 2em;
 	font-family: 'Tangerine', cursive;
 	font-style: normal;
 	font-weight: 300;
@@ -204,10 +204,10 @@ a.cta:hover {
 	transition-duration:.2s;
 }
 a.more {
-	color:#9cbeba;
+	color:#92419C;
 	display:block;
-	font-family: 'Tangerine', cursive;
-	font-size: .8em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
 	font-weight: 700;
 	letter-spacing: .05em;
 	text-decoration:none;
@@ -215,7 +215,7 @@ a.more {
 	height: 24px;
 }
 a.more:hover {
-	color:#9cbeba;
+	color:#66D15A;
 	transition-duration: .2s;
 }
 
@@ -224,13 +224,14 @@ a.more:hover {
 /* Other */
 
 blockquote {
-	font-size:1.5em;
+	font-family: 'Tangerine', cursive;
+	font-size:2.5em;
 	padding-top: .9em;
 	quotes:"\201C""\201D";
 	line-height:1.6em;
 }
 blockquote:before {
-	color:#d9ecea;
+	color:#92419C;
 	content:open-quote;
 	font-size:3em;
 	line-height:0em;
@@ -238,7 +239,7 @@ blockquote:before {
 	vertical-align:-.48em;
 }
 blockquote:after {
-	color:#d9ecea;
+	color:#92419C;
 	content:close-quote;
 	font-size:3em;
 	line-height:0em;
@@ -254,7 +255,8 @@ blockquote:after {
 	font-size: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+}
 
 body {
 	font-size: .8em;
@@ -281,6 +283,7 @@ header img {
 /* Fonts */
 
 nav a {
+	color: #60348C;
 	font-size: 1em;
 	margin: 1em;
 }
@@ -310,13 +313,10 @@ section#splash {
 .hours-text {
 	float:right;
 	padding: 1em 4em 2em;
-	width:100%;
+	width:50%;
 }
 .hours-img {
-	float:right;
-	width:100%;
-}
-.hours-img img {
+	float:left;
 	width:100%;
 }
 
@@ -324,9 +324,6 @@ section#splash {
 
 .cottages-img {
 	float:right;
-	width:25%;
-}
-.cottages-img img {
 	width:25%;
 }
 .cottages-text {
@@ -341,15 +338,11 @@ section#splash {
 	margin:0 auto;
 }
 .weddings-img {
-	float:left;
-	width:15%;
-}
-.weddings-img img {
-	width:25%;
+    float: left;
+    height: 50%; 
 }
 .weddings-text {
 	float:right;
-	padding: 1em 4em 2em;
 	width:50%;
 }
 
@@ -388,7 +381,6 @@ section#splash {
 	width:25%;
 }
 
-
 /* Events Page */
 .calendar-wrap {
 	max-width:1200px;
@@ -397,9 +389,6 @@ section#splash {
 .calendar-img {
 	float:left;
 	width:15%;
-}
-.calendar-img img {
-	width:25%;
 }
 .calendar-text {
 	float:right;
@@ -422,9 +411,6 @@ section#splash {
 	float:right;
 	width:50%;
 }
-.cottages-img img {
-	width:100%;
-}
 
 /* Weddings Page*/
 
@@ -436,9 +422,7 @@ section#splash {
 .weddingspage-img {
 	float:right;
 	width:50%;
-}
-.weddingspage-img img {
-	width:100%;
+	padding-top: 5em;
 }
 .weddingspage-text {
 	float:left;
@@ -449,9 +433,6 @@ section#splash {
 	float:left;
 	width:10%;
 	padding-right: 1em;
-}
-.weddingsform-img img {
-	width:100%;
 }
 .weddingsform-wrap {
 	max-width:1200px;
@@ -466,22 +447,6 @@ section#splash {
 	max-width:1200px;
 	margin:0 auto;
 }
-.weddings-img {
-	float:left;
-	width:32%;
-	padding-left: 2em;
-	padding-top: 1.3em;
-}
-.weddings-img img {
-	width:100%;
-	padding-left: 2em;
-}
-.weddings-text {
-	float:right;
-	font-size: .9em;
-	width:63%;
-	padding-right: 4em;
-}
 .weddings1-wrap {
 	max-width:1200px;
 	margin:0 auto;
@@ -494,9 +459,6 @@ section#splash {
 .weddings1-img {
 	float:right;
 	width:50%;
-}
-.weddings1-img img {
-	width:100%;
 }
 .weddings2-img {
 	float:right;
