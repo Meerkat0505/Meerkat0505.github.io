@@ -87,13 +87,13 @@ footer {
  
  
 /*----- Responsive -----*/
-@media screen and (max-width: 1150px) {
+@media screen and (min-width:861px) and (max-width: 1150px) {
     .wrap {
         width:90%;
     }
 }
  
-@media screen and (max-width: 860px) {
+@media screen and (min-width:601px) and (max-width: 860px) {
     .menu {
         position:relative;
         display:inline-block;
@@ -105,9 +105,7 @@ footer {
  
     .menu ul {
         width:100%;
-        position:absolute;
-        top:120%;
-        left:0px;
+        position:absolute;top:120%;right:0;
         padding:10px 18px;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
@@ -117,9 +115,7 @@ footer {
     .menu ul:after {
         width:0px;
         height:0px;
-        position:absolute;
-        top:0%;
-        left:22px;
+        position:absolute;top:0%;right:22px;
         content:'';
         transform:translate(0%, -100%);
         border-left:7px solid transparent;
@@ -368,7 +364,7 @@ blockquote:after {
 	font-size: 0;
 }
 
-@media (max-width: 600px) {
+@media only screen and (min-width:401px) and (max-width: 600px) {
 }
 
 body {
