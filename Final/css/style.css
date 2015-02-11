@@ -38,7 +38,8 @@
   margin-left: 0; }
 
 .one-half.column {
-  width: 48%; }
+  padding:0 1em;
+  width: 50%;
 }
   
 .blockright {
@@ -46,7 +47,9 @@
 
 .blockleft {
   float:left;}  
-
+.row {
+  margin-top:25%;
+}
 
 /* Styles and Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
