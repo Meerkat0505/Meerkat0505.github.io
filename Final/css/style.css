@@ -250,11 +250,15 @@ a:hover {
 }
 
 
-/* Responsive Images
+/* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .responsive-image{
   height:auto;
   width:100%;}
+header img {
+  display:block;
+  float:left;
+}
 
 
 /* Clearing
