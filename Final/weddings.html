@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <meta charset="utf-8">
   <title>Hawks Nest Vineyards</title>
   <meta name="Hawks Nest Vineyards" content="">
@@ -17,17 +18,37 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
     <header class="clearfix">
-        <a href="index.html"><img src="images/logo.png" alt="Hawks Nest Vineyards" ></a>
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="wines.html">Wines</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="cottages.html">Cottages</a></li>
-          <li><a href="weddings.html">Weddings</a></li>
-        </ul>
-      </nav>
-    </header>
+      <a href="index.html"><img src="images/logo.png" alt="Hawks Nest Vineyards" ></a>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wines.html">Wines</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="cottages.html">Cottages</a></li>
+            <li><a href="weddings.html">Weddings</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-nav">
+          <div class="menu-btn" id="menu-btn">
+            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+          <div class="responsive-menu">
+            <div class"menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wines.html">Wines</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="cottages.html">Cottages</a></li>
+                <li><a href="weddings.html">Weddings</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
 
 <section id="cottages">
   <div class="container">
@@ -91,6 +112,21 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
     <footer>
       <p>&copy2015 Hawks Nest Vineyards</p>
     </footer>
+  
+  <script type="text/javascript">
+    jQuery(function($){
+      $( '.menu-btn' ).click(function(){
+        $( '.menu-btn' ).click(function(){
+              $('.responsive-menu').toggleClass('expand')
+            })
+      })
+     
+      $( '.close-btn' ).click(function(){
+        $('.responsive-menu').removeClass('expand')
+        $('.menu-btn').removeClass('btn-none')
+      })
+    })
+  </script>
 
 </body>
 </html>

@@ -18,7 +18,12 @@
 .container {
   max-width: 960px;
   margin:0 auto;
-  padding: 0 20px;}
+  padding: 120px 20px;}
+
+.containerindex {
+  max-width: 960px;
+  margin:0 auto;
+  padding: 0px 20px;}
 
 .column,
 .columns {
@@ -37,7 +42,7 @@
   
 .one-half.columnright {
   padding:.5em;
-  width: 50%;
+  width: 60%;
   float:right;  }
   
 .blockright {
@@ -118,7 +123,7 @@ h1.hero {
   font-weight: 400;
   color:#EFE9F5;
   padding-top: 200px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   font-size: 6em;
   margin-left: 50px;}
 
@@ -127,7 +132,7 @@ blockquote {
   font-size:3em;
   padding-top: .9em;
   quotes:"\201C""\201D";
-  line-height:1.6em;}
+  line-height: 1.2em; }
 
 blockquote:before {
   color:#92419C;
@@ -180,10 +185,9 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .mobile-nav {
 	display:none;
+  padding-bottom: 1px;
 }
 .menu-btn {
-	background:#03A9F4;
-	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	padding:1em;
 }
 .menu-btn div {
@@ -204,7 +208,7 @@ a:hover {
 	width: 2em;
 	height: .25em;
 	margin: .25em 0;
-	background: rgb(255,255,255);
+  background:black;
 	z-index: 99;
 }
 
@@ -214,9 +218,13 @@ a:hover {
 
 .expand {
 	display: block !important;
-	background:#81D4FA;
 	padding:1em;
 }
+
+.li{
+  border-bottom: 1px;
+}
+
 .responsive-menu ul {
 	list-style-type:none;
 }
@@ -229,7 +237,7 @@ a:hover {
 
 header img {
   display:block;
-  float:left;}
+}
 
 
 /* Clearing
@@ -243,11 +251,12 @@ header img {
   display: table;
   clear: both; }
 
+
 /*----- Menu -----*/
     
      .menu {
         width:100%;
-        padding:10px 18px;
+        padding:1px 1px;
         border-radius:3px;
         float:top;}
  
@@ -259,14 +268,14 @@ header img {
     margin:0px 50px 0px 0px;
     float:left;
     list-style:none;
-    font-size:17px;}
+    font-size:17px; }
  
 .menu li:last-child {
     margin-right:50px;}
  
 .menu a {
     color:#777;
-    transition:color linear 0.15s;}
+    transition:color linear 0.15s; }
  
 .menu a:hover, .menu .current-item a {
     text-decoration:none;
@@ -283,7 +292,6 @@ header img {
      .menu {
         width:100%;
         padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
         float:top;}
  
@@ -317,12 +325,19 @@ header img {
 @media only screen and (min-width:601px) and (max-width: 860px) {
   nav { display:none; }
   .mobile-nav { display:block; }
+
+  header img {
+  display:block;
+  float:right;}
+
 }
-
-
 
 
 @media only screen and (max-width: 600px) {
 nav { display:none; }
   .mobile-nav { display:block; }
+
+  header img {
+  display:block;
+  float:right; }
 }
