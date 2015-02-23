@@ -18,7 +18,12 @@
 .container {
   max-width: 960px;
   margin:0 auto;
-  padding: 120px 20px;}
+  padding: 120px 20px 20px 20px;}
+
+.halfcontainer {
+  max-width: 960px;
+  margin:0 auto;
+  padding: 20px 20px 20px 20px;}
 
 .containerindex {
   max-width: 960px;
@@ -53,6 +58,10 @@
 
 .row { 
   margin-top:5%; }
+
+.pairings-text {
+    padding-top: 1em
+  }
 
 /* Styles and Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -122,7 +131,7 @@ h1.hero {
   font-family: 'Tangerine', cursive;
   font-weight: 400;
   color:#EFE9F5;
-  padding-top: 200px;
+  padding-top: 300px;
   line-height: 1.5em;
   font-size: 6em;
   margin-left: 50px;}
