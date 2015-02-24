@@ -42,7 +42,7 @@
 .columns:first-child { }
 
 .one-half.column {
-  padding:3em 1em;
+  padding:1em 1em;
   width: 40%; }
   
 .one-half.columnright {
@@ -60,7 +60,7 @@
   margin-top:5%; }
 
 .pairings-text {
-    padding-top: 1em
+    padding-top: 2em
   }
 
 /* Styles and Sections
